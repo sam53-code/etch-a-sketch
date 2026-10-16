@@ -7,13 +7,14 @@
 .gridContainer {
   display: flex;
   flex-wrap: wrap;
-  height: 960px;
-  width: 960px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  height: 640px;
+  width: 640px;
 }
 
-.gridSquare {
+.square {
   box-sizing: border-box;
-  width: 6.25%;
-  height: 6.25%;
+  aspect-ratio: 1 / 1;
   border: 0.5px solid #000;
 }
