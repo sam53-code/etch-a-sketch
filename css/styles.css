@@ -9,8 +9,8 @@
   flex-wrap: wrap;
   max-width: 100%;
   aspect-ratio: 1 / 1;
-  height: 640px;
-  width: 640px;
+  height: 960px;
+  width: 960px;
 }
 
 .square {
